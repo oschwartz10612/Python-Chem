@@ -6,6 +6,8 @@ Simple Python scripts to solve basic chemistry problems
 
 - Deducing the ions in a polyatomic ionic compound from its empirical formula: https://www.wolframalpha.com/
 
+## ALKES Other Notes: 
+
 ### Possible results
 
 `Mn2(CO3)3 = Mn3+ CO32-`
@@ -16,14 +18,17 @@ Simple Python scripts to solve basic chemistry problems
 
 `Co3(PO4)2 = Co2+ PO43-`
 
+### Used equations
 
+`Q=CmΔT`
 
-## Used equations
-
-`CmΔT`
-
-`d=ε/V`
+`d=V/ε`
 
 `d=ε/E`
 
 `c=p/RT`
+
+### Periodic Notes
+
+Periods = shells
+Groups = valence

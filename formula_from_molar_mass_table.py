@@ -1,10 +1,18 @@
 from helper import getMolarMass
 
-mass = 135.13
+
+#Compound X has a molar mass of Y and the following composition:
+# element	mass %
+# carbon	40.00%
+# hydrogen	6.71%
+# oxygen	53.29%
+# Write the molecular formula of X.
+
+mass = 180.16
 table = {
-    "C": 44.44,
-    "H": 3.73,
-    "N": 51.83
+    "C": 40,
+    "H": 6.71,
+    "O": 53.29
 }
 
 moles = {}

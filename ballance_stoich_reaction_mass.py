@@ -2,12 +2,15 @@ from chempy import balance_stoichiometry  # Main reaction in NASA's booster rock
 from pprint import pprint
 from helper import sigRound, getMolarMass
 
-reac, prod = balance_stoichiometry({'NH3', 'H3PO4'}, {'(NH4)3PO4'})
+#Ammonia  chemically reacts with oxygen gas  to produce nitric oxide  and water .
+#What mass of water is produced by the reaction of  of oxygen gas?
 
-want = '(NH4)3PO4'
+reac, prod = balance_stoichiometry({'NH3', 'O2'}, {'NO', 'H2O'})
+
+want = 'H2O'
 have = {
-    "name": "NH3",
-    "mass": 4.1
+    "name": "O2",
+    "mass": 5.6
 }
 sigs = 3
 

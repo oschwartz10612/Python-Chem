@@ -2,9 +2,11 @@ import math
 from pint import UnitRegistry
 ureg = UnitRegistry()
 
-sub = 1
-moles1 = 5.7
-moles2 = 2.81
+#An unknown compound has the following chemical formula:
+
+sub = 3 #Subscript of what we have
+moles1 = 7.24
+moles2 = 21.35
 
 res = round(sub*(moles1/moles2), 1)
 

@@ -2,8 +2,8 @@ import math
 from pint import UnitRegistry
 ureg = UnitRegistry()
 
-h = 2.07 * ureg.cm
-d = 2.5 * ureg.mm
+h = 2.84 * ureg.cm
+d = 1.8 * ureg.mm
 
 vol = math.pi * (d*.5)**2 * h
 

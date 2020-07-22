@@ -1,5 +1,5 @@
 from helper import getSciNotation
 
-val = (-5*10**12)**-2
+val = (-2*10**-12)**-3
 
 print(getSciNotation(val))

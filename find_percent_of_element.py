@@ -1,9 +1,9 @@
 from helper import sigRound
 
-sub1 = 75
-sub2 = 78
-sub3 = 24
-sigFigs = 2
+sub1 = 41.8
+sub2 = 57.5
+sub3 = 2.99
+sigFigs = 3
 
 total = sub1+sub2+sub3
 
