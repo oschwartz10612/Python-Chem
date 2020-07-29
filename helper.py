@@ -1,4 +1,5 @@
 import math
+import re
 from chempy import Substance
 from chempy.units import default_units as u
 
@@ -13,3 +14,7 @@ def getMolarMass(formula, roundNumber):
 
 def getSciNotation(number):
     return "{:.4e}".format(number)
+
+def find_sigFigs(x):
+    l = len(str(x).replace('.','').strip('0'))
+    return l
