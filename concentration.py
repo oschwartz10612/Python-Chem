@@ -1,8 +1,8 @@
 from helper import sigRound, find_sigFigs
 
-emptyWeight = 2.25
-weight = 43.0
-volume = 31.15
+emptyWeight = 4.2
+weight = 60.273
+volume = 184.0
 
 numberOfSigDecimals = 1
 
